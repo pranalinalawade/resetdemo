@@ -1,0 +1,20 @@
+reset
+1. to remove changes from staging area
+2.To undo commit at repository level
+
+format:
+git reset <mode> <commit id>
+
+mode- mode will decide whether these changes are going to remove from staging area or working directory or repository level.
+
+--mixed
+to discard commits from local repo and staging area.
+it will not touch working directory.
+
+--soft
+
+changes are available in working directory as well as staging area.....discard from local repo only
+
+--hard
+It is impossible to revert back in this mode
+
